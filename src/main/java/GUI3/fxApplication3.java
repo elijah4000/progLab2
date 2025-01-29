@@ -1,4 +1,7 @@
-package GUI2;
+
+
+
+package GUI3;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -6,10 +9,13 @@ import javafx.stage.Stage;
 
 
 import java.io.IOException;
-public class fxApplication2 extends Application {
+
+import static javafx.application.Application.launch;
+
+public class fxApplication3 extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("2-fxml.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("3-fxml.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 750);
 
         stage.setScene(scene);
