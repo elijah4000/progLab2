@@ -1,11 +1,12 @@
-package elijahcom.example.lab_2;
+package GUI2;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-public class DemoController {
+public class Controller2 {
+
 
     @FXML
     private TextField username;

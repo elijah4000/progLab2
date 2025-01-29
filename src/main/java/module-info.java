@@ -5,4 +5,7 @@ module elijahcom.example.lab_2 {
 
     opens elijahcom.example.lab_2 to javafx.fxml;
     exports elijahcom.example.lab_2;
+
+    opens GUI2 to javafx.fxml;
+    exports GUI2;
 }
