@@ -11,4 +11,7 @@ module elijahcom.example.lab_2 {
 
     opens GUI3 to javafx.fxml;
     exports GUI3;
+
+    opens GUI4 to javafx.fxml;
+    exports GUI4;
 }
